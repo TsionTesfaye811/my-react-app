@@ -1,14 +1,6 @@
-import Header from './Header.jsx';
-import Navbar from './Navbar.jsx';
-import './App.css';
+import React from "react";
+import CardComponents from "./components/card-components/App";
 
-function App() {
-  return (
-    <>
-  <Header/>
-  <Navbar/>
-  </>
-  );
+export default function App() {
+  return <CardComponents />;
 }
-
-export default App;
