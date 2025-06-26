@@ -1,13 +1,14 @@
 import React from 'react';
-import ColorPickerApp from './components/color-picker-app/App';
-// import CardComponents from './components/card-components/App';  // for later
+// import ColorPickerApp from './components/color-picker-app/App';
+// import CardComponents from './components/card-components/App';
+import TodoListApp from './components/todo-list-app/App';
 
 function App() {
   return (
     <div>
-      {/* Switch which app to render by commenting/uncommenting */}
-      <ColorPickerApp />
       {/* <CardComponents /> */}
+      {/* <ColorPickerApp /> */}
+      <TodoListApp />
     </div>
   );
 }
