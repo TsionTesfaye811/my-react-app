@@ -1,13 +1,11 @@
 import React from 'react';
-// import TodoListApp from './components/todo-list-app/App';
-// import ColorPickerApp from './components/color-picker-app/App';
-// import CardComponents from './components/card-components/App';
-import DigitalClockApp from './components/digital-clock-app/App';
+// import other components only if needed
+import StopwatchApp from './components/stopwatch-app/App';
 
 function App() {
   return (
-    <div>
-      <DigitalClockApp />
+    <div className="bg-gray-900 min-h-screen flex items-center justify-center">
+      <StopwatchApp />
     </div>
   );
 }
