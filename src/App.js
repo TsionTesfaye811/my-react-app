@@ -1,11 +1,10 @@
 import React from 'react';
-// import other components only if needed
-import StopwatchApp from './components/stopwatch-app/App';
+import UserGreeting from './components/user-greeting/App';
 
 function App() {
   return (
-    <div className="bg-gray-900 min-h-screen flex items-center justify-center">
-      <StopwatchApp />
+    <div className="p-4">
+      <UserGreeting isLoggedIn={true} username="Tsion" />
     </div>
   );
 }
