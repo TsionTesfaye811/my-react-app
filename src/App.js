@@ -1,10 +1,10 @@
 import React from 'react';
-import UserGreeting from './components/user-greeting/App';
+import Updatelist from './components/Updatelist/App';
 
 function App() {
   return (
-    <div className="p-4">
-      <UserGreeting isLoggedIn={true} username="Tsion" />
+    <div className="min-h-screen bg-gray-100 p-6">
+      <Updatelist />
     </div>
   );
 }
